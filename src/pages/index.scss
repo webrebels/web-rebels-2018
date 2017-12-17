@@ -1,0 +1,26 @@
+.page-index {
+  .image-wrapper,
+  .image-wrapper .imagery {
+    position: relative;
+    width: 100%;
+  }
+
+  .panel {
+    position: relative;
+    top: -230px;
+
+    p {
+      margin: 10px 0 0 10px;
+      padding: 0 0 0 5px;
+      border-left: solid 13px #5bffd2;
+
+      span {
+        color: #fff;
+        margin: 1px 0 0 0;
+        padding: 3px 8px;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: inline-block;
+      }
+    }
+  }
+}
