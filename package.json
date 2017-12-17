@@ -4,8 +4,10 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@jacobmischka/gatsby-plugin-react-svg": "^1.0.0",
     "gatsby": "^1.9.135",
     "gatsby-link": "^1.6.32",
+    "gatsby-plugin-postcss-sass": "^1.0.15",
     "gatsby-plugin-react-helmet": "^1.0.8"
   },
   "keywords": [
