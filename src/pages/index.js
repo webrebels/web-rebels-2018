@@ -29,6 +29,7 @@ const IndexPage = () => (
         <Button to="https://example.com">Submit CFP</Button>
       </Panel>
     </div>
+    <footer>Want to sponsor us? Head over to <a href="/sponsors">sponsors</a>.</footer>
   </div>
 );
 
