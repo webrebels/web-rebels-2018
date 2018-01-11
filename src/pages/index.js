@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import Imagery from "../graphics/imagery.svg";
+import imageryUrl from "../graphics/imagery.png";
 import Panel from "../components/panel";
 import Button from "../components/button";
 import "./index.scss";
@@ -9,7 +9,7 @@ import "./index.scss";
 const IndexPage = () => (
   <div className="page-index">
     <div className="image-wrapper">
-      <Imagery className="imagery" />
+      <img className="imagery" src={imageryUrl} alt="Oslo city scape" />
       <Panel title="WR_2018_CALL_FOR_PROPOSALS">
         <p>
           <span>Submit your proposals before March 1. 2018</span>
@@ -26,10 +26,12 @@ const IndexPage = () => (
           <span>in tech to send in their suggestions.</span>
         </p>
 
-        <Button to="https://example.com">Submit CFP</Button>
+        <Button to="https://www.papercall.io/webreb2018">Submit CFP</Button>
       </Panel>
     </div>
-    <footer>Want to sponsor us? Head over to <a href="/sponsors">sponsors</a>.</footer>
+    <footer>
+      Want to sponsor us? Head over to <a href="/sponsors">sponsors</a>.
+    </footer>
   </div>
 );
 
