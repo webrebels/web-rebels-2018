@@ -26,7 +26,6 @@ $desktop-width: 1024px;
   .panel {
     @include not-desktop {
       h1 {
-        height: 37px;
         font-size: 24px;
         vertical-align: middle;
         position: relative;

@@ -7,7 +7,7 @@ export default function Panel({ title, children }) {
     <div className="panel">
       <div className="title-wrapper">
         <div className="title-shape" />
-        <h1>{title}</h1>
+        <div className="title-container">{title}</div>
       </div>
       <div className="contents">
         {children}

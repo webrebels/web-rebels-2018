@@ -11,7 +11,7 @@ const IndexPage = () => (
     <div className="image-wrapper">
       <img className="imagery" src={imageryUrl} alt="Oslo city scape" />
       <div className="panel-wrapper">
-        <Panel title="WR_2018_CALL_FOR_PROPOSALS">
+        <Panel title={<h1>WR_2018_CALL_FOR_PROPOSALS</h1>}>
           <p>
             <span>Submit your proposals before March 1. 2018</span>
           </p>
