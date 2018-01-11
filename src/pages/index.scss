@@ -1,3 +1,17 @@
+$desktop-width: 1024px;
+
+@mixin not-desktop {
+  @media (max-width: $desktop-width - 1px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop-width) {
+    @content;
+  }
+}
+
 .page-index {
   .image-wrapper,
   .image-wrapper .imagery {
@@ -5,9 +19,26 @@
     width: 100%;
   }
 
+  .panel-wrapper {
+    margin: 0 5px 0 15px;
+  }
+
   .panel {
-    position: relative;
-    top: -230px;
+    @include not-desktop {
+      h1 {
+        height: 37px;
+        font-size: 24px;
+        vertical-align: middle;
+        position: relative;
+        top: 4px;
+      }
+    }
+
+    @include desktop {
+      position: relative;
+      top: -230px;
+      max-width: 540px;
+    }
 
     p {
       margin: 10px 0 0 10px;
