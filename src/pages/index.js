@@ -32,7 +32,13 @@ const IndexPage = () => (
       </div>
     </div>
     <footer>
-      Want to sponsor us? Head over to <a href="/sponsors">sponsors</a>.
+      <div>
+        <p>
+          <span>
+            Want to sponsor us? Head over to <a href="/sponsors">sponsors</a>.
+          </span>
+        </p>
+      </div>
     </footer>
   </div>
 );

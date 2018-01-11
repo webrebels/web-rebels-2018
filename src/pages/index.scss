@@ -39,19 +39,32 @@ $desktop-width: 1024px;
       top: -230px;
       max-width: 540px;
     }
-
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 0 20px 0;
     p {
-      margin: 10px 0 0 10px;
-      padding: 0 0 0 5px;
-      border-left: solid 13px #5bffd2;
+      float: right;
+      margin-right: 10px;
+    }
 
-      span {
-        color: #fff;
-        margin: 1px 0 0 0;
-        padding: 3px 8px;
-        background-color: rgba(0, 0, 0, 0.4);
-        display: inline-block;
-      }
+    a {
+      color: #fff;
+    }
+  }
+  p {
+    margin: 10px 0 0 10px;
+    padding: 0 0 0 5px;
+    border-left: solid 13px #5bffd2;
+
+    span {
+      color: #fff;
+      margin: 1px 0 0 0;
+      padding: 3px 8px;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: inline-block;
     }
   }
 }
