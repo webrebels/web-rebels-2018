@@ -17,9 +17,7 @@ const TemplateWrapper = ({ children }: { children: () => React.Node }) => (
           content: "webrebels, conference, javascript, js, olso"
         }
       ]}
-    >
-      <link rel="stylesheet" href="https://use.typekit.net/aox0bab.css" />
-    </Helmet>
+    />
     {children()}
   </div>
 );
