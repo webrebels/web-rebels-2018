@@ -17,9 +17,10 @@
   "scripts": {
     "start": "serve public",
     "build": "gatsby build",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "format":
+      "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "dev": "gatsby develop --port 8080",
-    "deploy": "firebase deploy"
+    "deploy": "gatsby build && firebase deploy"
   },
   "devDependencies": {
     "flow-bin": "^0.61.0",
