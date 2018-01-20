@@ -4,6 +4,7 @@ import Link from "gatsby-link";
 import imageryUrl from "../graphics/imagery.png";
 import Panel from "../components/panel";
 import Button from "../components/button";
+import SignupForm from "../components/signup-form";
 import "./index.scss";
 
 const IndexPage = () => (
@@ -11,6 +12,21 @@ const IndexPage = () => (
     <div className="image-wrapper">
       <img className="imagery" src={imageryUrl} alt="Oslo city scape" />
       <div className="panel-wrapper">
+        <Panel title={<h1>Oslo - June 4th &amp; 5th</h1>}>
+          <p>
+            <span>More information coming soon.</span>
+          </p>
+          {/* <p>
+            <span>
+              Want to sponsor us? Head over to <a href="/sponsors">sponsors</a>.
+            </span>
+          </p> */}
+          <p>
+            <span>Sign up to our newsletter to keep updated.</span>
+          </p>
+          <SignupForm />
+        </Panel>
+
         <Panel title={<h1>WR_2018_CALL_FOR_PROPOSALS</h1>}>
           <p>
             <span>Submit your proposals before March 1. 2018</span>
@@ -31,15 +47,6 @@ const IndexPage = () => (
         </Panel>
       </div>
     </div>
-    <footer>
-      <div>
-        <p>
-          <span>
-            Want to sponsor us? Head over to <a href="/sponsors">sponsors</a>.
-          </span>
-        </p>
-      </div>
-    </footer>
   </div>
 );
 

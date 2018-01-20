@@ -1,7 +1,7 @@
 .panel {
   $background-color: #e503d5;
   max-width: 430px;
-  margin: 0 auto;
+  margin: 20px auto;
 
   .title-wrapper {
     position: relative;
@@ -88,6 +88,14 @@
       top: 0;
       height: calc(100% - 10px);
       border-right: 1px solid #fff;
+    }
+  }
+
+  p a {
+    color: #fff;
+    &:hover {
+      position: relative;
+      top: -1px;
     }
   }
 }
