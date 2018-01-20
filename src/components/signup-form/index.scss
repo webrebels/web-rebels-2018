@@ -1,4 +1,10 @@
 .signup-form {
+  input,
+  textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+  }
+
   input[type="submit"] {
     font-family: "Jura", sans-serif;
     display: inline-block;
@@ -9,10 +15,7 @@
     color: #fff;
     border: 1px solid #5bffd2;
     padding: 5px 20px;
-    margin: 10px 10px;
-    color: #fff;
-    border: 1px solid #5bffd2;
-    padding: 5px 20px;
+    margin: 10px 10px 10px 28px;
     font-size: 14px;
     display: inline;
     cursor: pointer;
