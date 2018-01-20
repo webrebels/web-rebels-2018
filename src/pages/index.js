@@ -12,7 +12,7 @@ const IndexPage = () => (
     <div className="image-wrapper">
       <img className="imagery" src={imageryUrl} alt="Oslo city scape" />
       <div className="panel-wrapper">
-        <Panel title={<h1>Oslo - June 4th &amp; 5th</h1>}>
+        <Panel title={<h1>WR_OSLO_JUNE_4_5</h1>}>
           <p>
             <span>More information coming soon.</span>
           </p>
@@ -27,7 +27,7 @@ const IndexPage = () => (
           <SignupForm />
         </Panel>
 
-        <Panel title={<h1>WR_2018_CALL_FOR_PROPOSALS</h1>}>
+        <Panel title={<h1>CALL_FOR_PROPOSALS</h1>}>
           <p>
             <span>Submit your proposals before February 25. 2018</span>
           </p>
