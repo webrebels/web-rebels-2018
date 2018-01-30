@@ -29,7 +29,7 @@ const IndexPage = () => (
 
         <Panel title={<h1>WR_2018_CALL_FOR_PROPOSALS</h1>}>
           <p>
-            <span>Submit your proposals before March 1. 2018</span>
+            <span>Submit your proposals before February 25. 2018</span>
           </p>
           <p>
             <span>
