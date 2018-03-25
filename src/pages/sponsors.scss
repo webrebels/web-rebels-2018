@@ -23,17 +23,43 @@ $desktop-width: 1024px;
     top: 0;
     width: 100%;
   }
-
-  h1 {
-    margin: 200px 0 0 10px;
-    padding: 0 0 0 5px;
-    border-left: solid 13px #5bffd2;
-
-    color: #fff;
-    padding: 3px 8px;
-    background-color: rgba(0, 0, 0, 0.4);
-    display: inline-block;
+  .section-one {
+    display: grid;
+    grid-gap: 10px;
+    @include desktop {
+      grid-template-columns: 3fr 1fr;
+      .panel:nth-child(1) {
+        grid-row: 1 / span 2;
+      }
+      .panel:nth-child(2) {
+        grid-row: 2;
+      }
+    }
   }
+  .section-two {
+    display: grid;
+    grid-gap: 10px;
+    @include desktop {
+      grid-template-columns: 1fr 1fr 1fr;
+      .panel:nth-child(2) {
+        grid-column: 2 / span 2;
+      }
+      .panel:nth-child(1) {
+        grid-row: 1 / span 3;
+      }
+    }
+  }
+
+  // h1 {
+  //   margin: 200px 0 0 10px;
+  //   padding: 0 0 0 5px;
+  //   border-left: solid 13px #5bffd2;
+
+  //   color: #fff;
+  //   padding: 3px 8px;
+  //   background-color: rgba(0, 0, 0, 0.4);
+  //   display: inline-block;
+  // }
 
   .panel h2 {
     position: relative;
@@ -41,14 +67,15 @@ $desktop-width: 1024px;
   }
 
   .panel {
+    max-width: initial;
     margin: 10px 5px 0px 10px;
-    @include desktop {
-      float: left;
-      max-width: initial;
-      width: 30%;
-    }
-    @include not-desktop {
-      margin: 10px auto;
-    }
+    // @include desktop {
+    //   float: left;
+    //   max-width: initial;
+    //   width: 30%;
+    // }
+    // @include not-desktop {
+    //   margin: 10px auto;
+    // }
   }
 }
