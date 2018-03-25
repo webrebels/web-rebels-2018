@@ -13,11 +13,11 @@ const IndexPage = () => (
         <p>
           <span>More information coming soon.</span>
         </p>
-        <p>
+        {/* <p>
           <span>
             Want to sponsor us? Head over to <a href="/sponsors">sponsors</a>.
           </span>
-        </p>
+        </p> */}
         <p>
           <span>Sign up to our newsletter to keep updated.</span>
         </p>

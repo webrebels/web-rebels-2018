@@ -11,7 +11,7 @@ type Props = { children: () => React.Node };
 class TemplateWrapper extends Component<Props, { marginTop: number }> {
   state = { marginTop: 100 };
   image: ?HTMLImageElement;
-  componentWillMount() {
+  componentDidMount() {
     window.onresize = this.setMargin;
   }
 
