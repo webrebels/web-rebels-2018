@@ -8,26 +8,9 @@ import "./index.scss";
 import imageryUrl from "../graphics/imagery.png";
 
 type Props = { children: () => React.Node };
-class TemplateWrapper extends Component<Props, { marginTop: number }> {
-  state = { marginTop: 100 };
-  image: ?HTMLImageElement;
-  componentDidMount() {
-    window.onresize = this.setMargin;
-  }
-
-  imageRef = (element: HTMLElement) => {
-    this.image = element;
-    element.onload = this.setMargin;
-  };
-
-  setMargin = () => {
-    if (!this.image) return;
-    this.setState({ marginTop: this.image.clientHeight * 0.7 });
-  };
-
+class TemplateWrapper extends Component<Props> {
   render() {
     const { children } = this.props;
-    const { marginTop } = this.state;
     return (
       <div className="template-wrapper">
         <Helmet
@@ -44,16 +27,9 @@ class TemplateWrapper extends Component<Props, { marginTop: number }> {
           ]}
         />
         <div className="image-wrapper">
-          <img
-            className="imagery"
-            src={imageryUrl}
-            alt="Oslo city scape"
-            ref={this.imageRef}
-          />
+          <img className="imagery" src={imageryUrl} alt="Oslo city scape" />
         </div>
-        <div className="layout-page-content" style={{ marginTop }}>
-          {children()}
-        </div>
+        <div className="layout-page-content">{children()}</div>
       </div>
     );
   }
