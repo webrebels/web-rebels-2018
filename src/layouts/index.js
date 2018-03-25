@@ -6,6 +6,7 @@ import Helmet from "react-helmet";
 
 import "./index.scss";
 import imageryUrl from "../graphics/imagery.png";
+import Nav from "../components/nav";
 
 type Props = { children: () => React.Node };
 class TemplateWrapper extends Component<Props> {
@@ -29,6 +30,7 @@ class TemplateWrapper extends Component<Props> {
         <div className="image-wrapper">
           <img className="imagery" src={imageryUrl} alt="Oslo city scape" />
         </div>
+        <Nav />
         <div className="layout-page-content">{children()}</div>
       </div>
     );
