@@ -13,12 +13,6 @@ $desktop-width: 1024px;
 }
 
 .page-index {
-  .image-wrapper,
-  .image-wrapper .imagery {
-    position: relative;
-    width: 100%;
-  }
-
   .panel-wrapper {
     margin: 0 5px 0 15px;
   }
@@ -34,8 +28,6 @@ $desktop-width: 1024px;
     }
 
     @include desktop {
-      position: relative;
-      top: -230px;
       max-width: 540px;
     }
   }
@@ -54,7 +46,6 @@ $desktop-width: 1024px;
     }
   }
   p {
-    margin: 10px 0 0 10px;
     padding: 0 0 0 5px;
     border-left: solid 13px #5bffd2;
 

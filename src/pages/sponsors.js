@@ -1,12 +1,10 @@
 import React from "react";
 
 import Panel from "../components/panel";
-import imageryCutUrl from "../graphics/imagery-cut.png";
 import "./sponsors.scss";
 
 const Sponsors = () => (
   <div className="page-sponsors">
-    <img src={imageryCutUrl} alt="Simplified Oslo city scape" />
     <div className="page-content">
       <section className="section-one">
         <Panel title={<h1>Sponsors</h1>} class="box sponsors">
@@ -118,6 +116,10 @@ const Sponsors = () => (
             </li>
             <li>Soda sponsor - You bring Coca cola for all</li>
           </ul>
+        </Panel>
+
+        <Panel title={<h2>Questions</h2>} class="box questions">
+          <p>Have any questions? Do something about it!</p>
         </Panel>
       </section>
     </div>

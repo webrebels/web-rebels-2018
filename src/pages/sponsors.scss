@@ -17,12 +17,6 @@ $desktop-width: 1024px;
     max-width: 1024px;
     margin: 0 auto;
   }
-
-  img {
-    position: absolute;
-    top: 0;
-    width: 100%;
-  }
   .section-one {
     display: grid;
     grid-gap: 10px;
@@ -46,6 +40,9 @@ $desktop-width: 1024px;
       }
       .panel:nth-child(1) {
         grid-row: 1 / span 3;
+      }
+      .panel:nth-last-child(1) {
+        grid-column: 2 / span 2;
       }
     }
   }

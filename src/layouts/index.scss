@@ -8,5 +8,11 @@ body {
 .template-wrapper {
   padding: 0.1px;
   min-height: 100vh;
-  background-image: radial-gradient(circle at 50% 50%, #00a69c, #262261);
+  background-image: radial-gradient(circle at 50% 800px, #00a69c, #262261);
+
+  .image-wrapper,
+  .image-wrapper .imagery {
+    position: absolute;
+    width: 100%;
+  }
 }
