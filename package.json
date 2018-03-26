@@ -3,27 +3,28 @@
   "description": "Web rebels 2018",
   "version": "1.0.0",
   "dependencies": {
-    "@jacobmischka/gatsby-plugin-react-svg": "^1.0.0",
+    "@jacobmischka/gatsby-plugin-react-svg": "^1.1.0",
     "babel-preset-flow": "^6.23.0",
-    "gatsby": "^1.9.135",
-    "gatsby-link": "^1.6.32",
-    "gatsby-plugin-postcss-sass": "^1.0.15",
+    "gatsby": "^1.9.241",
+    "gatsby-link": "^1.6.39",
+    "gatsby-plugin-postcss-sass": "^1.0.19",
     "gatsby-plugin-react-helmet": "^1.0.8",
-    "serve": "^6.4.2"
+    "serve": "^6.5.3"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "start": "serve public",
     "build": "gatsby build",
-    "format":
-      "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "dev": "gatsby develop --port 8080",
     "deploy": "gatsby build && firebase deploy"
   },
   "devDependencies": {
-    "flow-bin": "^0.61.0",
-    "prettier": "^1.9.2"
+    "flow-bin": "^0.68.0",
+    "prettier": "^1.11.1"
   }
 }
