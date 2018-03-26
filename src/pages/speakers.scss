@@ -1,0 +1,19 @@
+.page-speakers {
+  img {
+    width: 250px;
+    height: 270px;
+  }
+
+  p {
+    padding: 0 0 0 5px;
+    border-left: solid 13px #5bffd2;
+
+    span {
+      color: #fff;
+      margin: 1px 0 0 0;
+      padding: 3px 8px;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: inline-block;
+    }
+  }
+}
