@@ -42,9 +42,6 @@ $desktop-width: 1024px;
       .panel:nth-child(1) {
         grid-row: 1 / span 3;
       }
-      .panel:nth-last-child(1) {
-        grid-column: 2 / span 2;
-      }
     }
   }
 
@@ -67,13 +64,5 @@ $desktop-width: 1024px;
   .panel {
     max-width: initial;
     margin: 10px 5px 0px 10px;
-    // @include desktop {
-    //   float: left;
-    //   max-width: initial;
-    //   width: 30%;
-    // }
-    // @include not-desktop {
-    //   margin: 10px auto;
-    // }
   }
 }

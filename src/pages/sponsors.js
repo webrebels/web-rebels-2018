@@ -7,29 +7,31 @@ const Sponsors = () => (
   <div className="page-sponsors">
     <div className="page-content">
       <section className="section-one">
-        <Panel title={<h1>Sponsors</h1>} class="box sponsors">
+        <Panel title={<h1>Sponsors</h1>}>
           <p>
             We are looking for sponsors to our developer conference Web Rebels.
             We have over 300 attendees of people interested in web development
-            and the conference goes over two days.
+            and the conference goes over two days. There will be workshops as
+            well!
           </p>
           <p>
             This year we are offering 3 different sponsorship packages, Bronze,
-            Silver and Gold.
+            Silver and Gold. See below for more details.
           </p>
         </Panel>
 
-        <Panel title={<h2>Get_in_touch</h2>} class="box get-in-touch">
+        <Panel title={<h2>Get_in_touch</h2>}>
           <p>
-            We are looking for sponsors to our developer conference Web Rebels.
-            We have over 300 attendees of people interested in web development
-            and the conference goes over two days.
+            Have any questions? Please do not hesitate to{" "}
+            <a href="mailto:boyhowdy[ replace this bracket with a @]webrebels.org">
+              shoot us an email
+            </a>.
           </p>
         </Panel>
       </section>
 
       <section className="section-two">
-        <Panel title={<h2>Benefits</h2>} class="box benefits">
+        <Panel title={<h2>Benefits</h2>}>
           <ul>
             <li>Logo on website</li>
             <li>Our thanks on Twitter</li>
@@ -41,7 +43,7 @@ const Sponsors = () => (
           </ul>
         </Panel>
 
-        <Panel title={<h2>Gold</h2>} class="box gold">
+        <Panel title={<h2>Gold</h2>}>
           64 000 NOK ( with mva 80 000 NOK) – 5 spots
           <ul>
             <li>3 tickets in total</li>
@@ -86,20 +88,7 @@ const Sponsors = () => (
           </p>
         </Panel>
 
-        <Panel title={<h2>Bronze</h2>} class="box bronze">
-          <p>30 000 NOK (with mva 37 500 NOK)</p>
-          <ul>
-            <li>
-              Flag, banner or poster inside the venue (provided by you) but no
-              stand
-            </li>
-            <li>Lanyard from your company (provided by you)</li>
-            <li>Bigger logo</li>
-            <li>1 ticket</li>
-          </ul>
-        </Panel>
-
-        <Panel title={<h2>Silver </h2>} class="box silver">
+        <Panel title={<h2>Silver </h2>}>
           40 000 NOK (with mva 50 000 NOK)
           <p>
             Bronze with a stand at the venue and one of the following options
@@ -118,8 +107,17 @@ const Sponsors = () => (
           </ul>
         </Panel>
 
-        <Panel title={<h2>Questions</h2>} class="box questions">
-          <p>Have any questions? Do something about it!</p>
+        <Panel title={<h2>Bronze</h2>}>
+          <p>30 000 NOK (with mva 37 500 NOK)</p>
+          <ul>
+            <li>
+              Flag, banner or poster inside the venue (provided by you) but no
+              stand
+            </li>
+            <li>Lanyard from your company (provided by you)</li>
+            <li>Bigger logo</li>
+            <li>1 ticket</li>
+          </ul>
         </Panel>
       </section>
     </div>
