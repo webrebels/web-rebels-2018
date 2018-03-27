@@ -10,7 +10,7 @@ export default function Nav() {
         <li>
           <Link to="/">Home</Link>
         </li>
-        <li>
+        {/* <li>
           <Link activeClassName="active" to="/speakers">
             Speakers
           </Link>
@@ -24,17 +24,17 @@ export default function Nav() {
           <Link activeClassName="active" to="/sponsors">
             Sponsors
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link activeClassName="active" to="/about">
             About WR
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link activeClassName="active" to="/tickets">
             Tickets
           </Link>
-        </li>
+        </li> */}
       </ul>
     </header>
   );

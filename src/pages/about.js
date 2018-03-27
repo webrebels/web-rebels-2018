@@ -42,7 +42,7 @@ export default function AboutPage() {
             The venue is wheelchair accessible. The entrance is on the ground
             floor. If you have any questions about practicalities – or if there
             is anything we can do to make your attendance possible, please do
-            not hesitate to
+            not hesitate to{" "}
             <a href="mailto:boyhowdy[ replace this bracket with a @]webrebels.org">
               shoot us an email
             </a>.
@@ -58,7 +58,7 @@ export default function AboutPage() {
           </p>
           <p>
             TICKET REFUND POLICY<br />
-            We have a refund policy for tickets which is
+            We have a refund policy for tickets which is{" "}
             <a href="https://github.com/webrebels/rebeladmin/wiki/TicketRefunds">
               described on our wiki.
             </a>
@@ -81,19 +81,20 @@ export default function AboutPage() {
           <h4>For the community, not for profit</h4>
 
           <p>
-            We are a
+            We are a{" "}
             <a href="http://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=997686659">
               registered not-for-profit organization
             </a>
             that is run by unpaid volunteers. If we make any profit from the
             conference we give 30% back to community groups throughout the
-            Nordic region. Any questions you might have:
-            <a href="mailto:kontor[ replace this bracket with a @
-                     ]webrebels.org">
+            Nordic region. Any questions you might have:{" "}
+            <a
+              href="mailto:kontor[ replace this bracket with a @
+                     ]webrebels.org"
+            >
               shoot us an email
             </a>
-            or find us on
-            <a href="http://twitter.com/web_rebels/">Twitter</a>.
+            or find us on <a href="http://twitter.com/web_rebels/">Twitter</a>.
           </p>
           <p>
             We invite <a href="#talks">16 speakers</a> from all over the world,
@@ -103,7 +104,7 @@ export default function AboutPage() {
           <h4>Code of Conduct</h4>
           <p>
             We want these couple of days to be truly enjoyable for everyone.
-            Attendees, speakers, sponsors and volunteers must all respect the
+            Attendees, speakers, sponsors and volunteers must all respect the{" "}
             <a href="http://jsconf.com/codeofconduct.html">
               JSConf Code of Conduct
             </a>.
@@ -155,7 +156,7 @@ export default function AboutPage() {
         <Panel title={<h2>previous_web_rebel_confs</h2>} class="box gold">
           <p>
             Below are links to previous conference websites. If you're looking
-            for the videos they're all in our
+            for the videos they're all in our{" "}
             <a href="https://www.youtube.com/channel/UCM9cTs_C0PmTlHXTNrqTpnw">
               YouTube channel.
             </a>
