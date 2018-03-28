@@ -19,12 +19,12 @@ export default function Nav() {
           <Link activeClassName="active" to="/schedule">
             Schedule
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link activeClassName="active" to="/sponsors">
             Sponsors
           </Link>
-        </li> */}
+        </li>
         <li>
           <Link activeClassName="active" to="/about">
             About WR
