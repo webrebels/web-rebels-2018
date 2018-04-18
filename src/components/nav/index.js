@@ -33,9 +33,7 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link activeClassName="active" to="/tickets">
-            Tickets
-          </Link>
+          <a href="https://ti.to/webrebels/2018">Tickets</a>
         </li>
       </ul>
     </header>

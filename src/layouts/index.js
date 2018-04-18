@@ -31,7 +31,22 @@ class TemplateWrapper extends Component<Props> {
           <img className="imagery" src={imageryUrl} alt="Oslo city scape" />
         </div>
         <Nav />
-        <div className="layout-page-content">{children()}</div>
+        <div className="layout-page-content">
+          {children()}
+        </div>
+        <div className="layout-page-sponsors">
+          <section className="col-4">
+            <a href="#" className="sponsor"> </a>
+            <a href="#" className="sponsor"> </a>
+            <a href="#" className="sponsor"> </a>
+            <a href="#" className="sponsor"> </a>
+
+            <a href="#" className="sponsor"> </a>
+            <a href="#" className="sponsor"> </a>
+            <a href="#" className="sponsor"> </a>
+            <a href="#" className="sponsor"> </a>
+          </section>
+        </div>
       </div>
     );
   }
