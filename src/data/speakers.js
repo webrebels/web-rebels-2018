@@ -7,7 +7,16 @@ export default [
     talkTitle: "Something really interesting",
     talkDescription: "",
     photoUrl: somethingUrl
+  },
+
+  {
+    name: "Foo bar",
+    bio: "Bar foo",
+    talkTitle: "Something really interesting",
+    talkDescription: "",
+    photoUrl: somethingUrl
   }
+
 ].map(speaker => {
   speaker.pageUrl = `/speaker/${speaker.name
     .split(" ")

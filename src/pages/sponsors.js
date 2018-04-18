@@ -3,10 +3,11 @@ import React from "react";
 import Panel from "../components/panel";
 import "./sponsors.scss";
 
-const Sponsors = () => (
-  <div className="page-sponsors">
-    <div className="page-content">
-      <section className="section-one">
+const SponsorPage = () => (
+  <div className="page">
+    <div className="sponsors">
+
+      <section className="col-2">
         <Panel title={<h1>Sponsors</h1>}>
           <p>
             We are looking for sponsors to our developer conference Web Rebels.
@@ -23,14 +24,12 @@ const Sponsors = () => (
         <Panel title={<h2>Get_in_touch</h2>}>
           <p>
             Have any questions? Please do not hesitate to{" "}
-            <a href="mailto:boyhowdy[ replace this bracket with a @]webrebels.org">
+            <a href="mailto:boyhowdy@webrebels.org">
               shoot us an email
             </a>.
           </p>
         </Panel>
-      </section>
 
-      <section className="section-two">
         <Panel title={<h2>Benefits</h2>}>
           <ul>
             <li>Logo on website</li>
@@ -124,4 +123,4 @@ const Sponsors = () => (
   </div>
 );
 
-export default Sponsors;
+export default SponsorPage;

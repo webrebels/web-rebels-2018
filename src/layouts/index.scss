@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Jura");
 
+$desktop-width: 1024px;
+
 body {
   font-family: "Jura", sans-serif;
   margin: 0;
@@ -22,5 +24,51 @@ body {
     margin-top: 50px;
     min-height: 27.4vw;
     margin-bottom: 50px;
+    /* background-color: red; */
+    width: 1024px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  @mixin not-desktop {
+    @media (max-width: $desktop-width - 1px) {
+      @content;
+    }
+  }
+
+  @mixin desktop {
+    @media (min-width: $desktop-width) {
+      @content;
+    }
+  }
+
+  .page {
+    section {
+      width: 1024px;
+      margin: 0 auto;
+    }
+    img {
+      width: 100%;
+    }
+    section.col-2 {
+      display: grid;
+      grid-gap: 20px;
+      @include desktop {
+        /* grid-template-columns: 1fr 2fr; */
+        grid-template-columns: 502px 502px;
+      }
+    }
+    section.col-1 {
+      display: grid;
+      grid-gap: 20px;
+      @include desktop {
+        /* grid-template-columns: 1fr 2fr; */
+        /* grid-template-columns: 502px 502px; */
+      }
+    }
+  }
+
 }
+
+

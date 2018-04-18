@@ -1,7 +1,6 @@
 .panel {
   $background-color: #e503d5;
-  max-width: 430px;
-  margin: 20px auto;
+  width: 100%;
   color: #fff;
 
   .title-wrapper {
@@ -11,7 +10,6 @@
 
     .title-shape {
       position: absolute;
-      left: -10px;
       top: 10px;
       width: 10px;
       height: 26px;
@@ -44,6 +42,7 @@
     height: 37px;
     color: #fff;
     margin: 0;
+    margin-left: 10px;
     > * {
       margin: 0;
       text-transform: uppercase;
@@ -58,7 +57,7 @@
     border: 1px solid #fff;
     border-right: none;
     border-bottom: none;
-    margin-left: -10px;
+    /* margin-left: -10px; */
     position: relative;
     &::before {
       content: "";
