@@ -1,3 +1,27 @@
 /*
   Styles specific for frontpage page goes here
 */
+
+$desktop-width: 1024px;
+
+@mixin not-desktop {
+  @media (max-width: $desktop-width - 1px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop-width) {
+    @content;
+  }
+}
+
+.index {
+  .speakers.col-4 {
+    display: grid;
+    grid-gap: 11px;
+    @include desktop {
+      grid-template-columns: 242px 242px 242px 242px;
+    }
+  }
+}
