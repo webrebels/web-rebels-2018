@@ -5,7 +5,7 @@ import Link from "gatsby-link";
 import Helmet from "react-helmet";
 
 import "./index.scss";
-import imageryUrl from "../graphics/imagery.png";
+import imageryUrl from "../graphics/background.png";
 import Nav from "../components/nav";
 
 type Props = { children: () => React.Node };
@@ -36,8 +36,8 @@ class TemplateWrapper extends Component<Props> {
         </div>
         <div className="layout-page-sponsors">
           <section className="col-4">
-            <a href="#" className="sponsor"> </a>
-            <a href="#" className="sponsor"> </a>
+            <a href="https://www.mozilla.org" className="sponsor mozilla"> </a>
+            <a href="https://www.sparebank1.no/" className="sponsor sparebank1"> </a>
             <a href="#" className="sponsor"> </a>
             <a href="#" className="sponsor"> </a>
 
