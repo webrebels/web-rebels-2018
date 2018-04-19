@@ -2,13 +2,15 @@ import React from "react";
 
 import Panel from "../components/panel";
 import "./about.scss";
+
 import venueUrl from "../graphics/venue.jpg";
 import mathallenUrl from "../graphics/mathallen-small.jpg";
 
-export default function AboutPage() {
-  return (
-    <div className="page-about">
-      <section>
+const AboutPage = () => (
+  <div className="page">
+    <div className="about">
+
+      <section className="col-2">
         <Panel title={<h2>Location</h2>} class="box benefits">
           <p>
             Where is the venue and <br /> how do i get there?
@@ -21,6 +23,7 @@ export default function AboutPage() {
           </p>
           <img src={venueUrl} title="Dansens Hus (House of Dance)" />
         </Panel>
+
         <Panel title={<h1>Venue</h1>}>
           <p>
             Welcome to “Dansens hus” which is the National Stage for Dance.
@@ -66,6 +69,7 @@ export default function AboutPage() {
             contact us.
           </p>
         </Panel>
+
         <Panel title={<h1>About</h1>}>
           <p>
             Web Rebels is all about the <br /> the community and good times.
@@ -90,7 +94,7 @@ export default function AboutPage() {
             Nordic region. Any questions you might have:{" "}
             <a
               href="mailto:kontor[ replace this bracket with a @
-                     ]webrebels.org"
+                      ]webrebels.org"
             >
               shoot us an email
             </a>
@@ -153,6 +157,7 @@ export default function AboutPage() {
             </li>
           </ol>
         </Panel>
+
         <Panel title={<h2>previous_web_rebel_confs</h2>} class="box gold">
           <p>
             Below are links to previous conference websites. If you're looking
@@ -207,6 +212,9 @@ export default function AboutPage() {
           </p>
         </Panel>
       </section>
+
     </div>
-  );
-}
+  </div>
+);
+
+export default AboutPage;

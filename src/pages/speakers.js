@@ -5,25 +5,35 @@ import Button from "../components/button";
 import speakerData from "../data/speakers";
 import "./speakers.scss";
 
-function renderSpeaker({ talkTitle, name, photoUrl, bio, pageUrl }) {
+
+function renderSpeaker({ title, name, photoUrl, bio, pageUrl, abstract }) {
   return (
-    <Panel title={<h2>{talkTitle.split(" ").join("_")}</h2>}>
-      <p>
-        <span>Speaker: {name}</span>
-      </p>
+    <Panel title={<h2>{name}</h2>}>
       <img src={photoUrl} />
-      <p>{bio}</p>
-      <Button to={pageUrl}>Read more</Button>
+
+      {bio.map(paragraph =>
+        <p>{paragraph}</p>
+      )}
+
+      <h3>{title}</h3>
+
+      {abstract.map(paragraph =>
+        <p>{paragraph}</p>
+      )}
     </Panel>
   );
 }
 
-const Speakers = () => (
-  <div className="page-speakers">
-    <div className="page-content">
-      <section>{speakerData.map(renderSpeaker)}</section>
+const SpeakersPage = () => (
+  <div className="page">
+    <div className="speakers">
+
+      <section className="col-2">
+        {speakerData.map(renderSpeaker)}
+      </section>
+
     </div>
   </div>
 );
 
-export default Speakers;
+export default SpeakersPage;

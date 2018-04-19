@@ -10,16 +10,18 @@ export default function Nav() {
         <li>
           <Link to="/">Home</Link>
         </li>
-        {/* <li>
+        <li>
           <Link activeClassName="active" to="/speakers">
             Speakers
           </Link>
         </li>
+{/*
         <li>
           <Link activeClassName="active" to="/schedule">
             Schedule
           </Link>
-        </li> */}
+        </li>
+*/}
         <li>
           <Link activeClassName="active" to="/sponsors">
             Sponsors
@@ -30,11 +32,9 @@ export default function Nav() {
             About WR
           </Link>
         </li>
-        {/* <li>
-          <Link activeClassName="active" to="/tickets">
-            Tickets
-          </Link>
-        </li> */}
+        <li>
+          <a href="https://ti.to/webrebels/2018">Tickets</a>
+        </li>
       </ul>
     </header>
   );
