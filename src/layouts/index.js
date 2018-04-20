@@ -38,13 +38,13 @@ class TemplateWrapper extends Component<Props> {
           <section className="col-4">
             <a href="https://www.mozilla.org" className="sponsor mozilla"> </a>
             <a href="https://www.sparebank1.no" className="sponsor sparebank1"> </a>
-            <a href="https://www.systek.no" className="sponsor systek"> </a>
             <a href="https://www.acando.no" className="sponsor acando"> </a>
-
             <a href="https://www.webstep.no" className="sponsor webstep"> </a>
+
             <a href="https://finn.no" className="finn sponsor"> </a>
             <a href="https://www.microsoft.com" className="microsoft sponsor"> </a>
             <a href="https://vivaldi.com" className="vivaldi sponsor"> </a>
+            <div className="sponsor"> </div>
           </section>
         </div>
       </div>
