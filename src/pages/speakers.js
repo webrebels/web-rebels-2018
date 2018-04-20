@@ -7,8 +7,9 @@ import "./speakers.scss";
 
 
 function renderSpeaker({ title, name, photoUrl, bio, pageUrl, abstract }) {
+  const hash = `${name.toLowerCase().replace(' ', '_')}`;
   return (
-    <Panel title={<h2>{name}</h2>}>
+    <Panel title={<h2 id={hash}>{name}</h2>}>
       <img src={photoUrl} />
 
       {bio.map(paragraph =>
