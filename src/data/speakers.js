@@ -5,7 +5,7 @@ import michaelGeers from '../graphics/speaker_michael_geers.jpg';
 
 export default [
   {
-    name: 'Martin Split',
+    name: 'Martin Splitt',
     bio: [
       'Martin is pretty decent at humaning and pretty good at computering, so he decided to use his computering to improve his and others humaning.',
       'He loves the open web and open source and helps to make things better with, but not limited to, code.'
