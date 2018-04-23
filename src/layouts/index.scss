@@ -43,7 +43,12 @@ body {
 
   .layout-page-content {
     section {
-      width: 1024px;
+      @include desktop {
+        width: 1024px;
+      }
+      @include not-desktop {
+        width: 90%;
+      }
       margin: 0 auto 20px auto;
     }
     img {
@@ -68,14 +73,24 @@ body {
 
   .layout-page-sponsors {
     section {
-      width: 1024px;
+      @include desktop {
+        width: 1024px;
+      }
+      @include not-desktop {
+        width: 90%;
+      }
       margin: 0 auto;
     }
     section.col-4 {
       display: grid;
-      grid-gap: 12px;
       @include desktop {
+        grid-gap: 12px;
         grid-template-columns: 247px 247px 247px 247px;
+      }
+      @include not-desktop {
+        grid-gap: 4%;
+        grid-template-columns: 48% 48%;
+
       }
     }
     .sponsor {
@@ -85,6 +100,7 @@ body {
       background-position: center center;
       background-repeat: no-repeat;
       background-size: 90%;
+      margin-bottom: 12px;
     }
     .mozilla {
       background-image: url(../graphics/sponsor_mozilla.svg);

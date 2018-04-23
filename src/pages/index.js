@@ -13,8 +13,8 @@ const IndexPage = () => (
     <div className="index">
 
       <section className="col-2">
-        <Panel title={<h1>WEB REBELS 2018 - 4-5th of JUNE</h1>}>
-          <p>Web Rebels is a one track JavaScript conference running in beautiful Oslo, Norway.</p>
+        <Panel title={<h1>4-5th of JUNE 2018</h1>}>
+          <p>Web Rebels is a one track JavaScript conference running on 4-5th of June 2018 in beautiful Oslo, Norway.</p>
         </Panel>
 
         <Panel title={<h1>TICKETS</h1>}>

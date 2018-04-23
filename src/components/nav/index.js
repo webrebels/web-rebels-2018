@@ -29,7 +29,7 @@ export default function Nav() {
         </li>
         <li>
           <Link activeClassName="active" to="/about">
-            About WR
+            About
           </Link>
         </li>
         <li>
