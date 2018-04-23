@@ -105,7 +105,7 @@ const AboutPage = () => (
             some of them are picked from our Call For Papers and some are picked
             the organizers.
           </p>
-          <h4>Code of Conduct</h4>
+          <h4 id="coc">Code of Conduct</h4>
           <p>
             We want these couple of days to be truly enjoyable for everyone.
             Attendees, speakers, sponsors and volunteers must all respect the{" "}
