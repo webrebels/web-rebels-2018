@@ -10,6 +10,15 @@ import Nav from "../components/nav";
 
 type Props = { children: () => React.Node };
 class TemplateWrapper extends Component<Props> {
+  componentDidMount() {
+    setTimeout(() => {
+      const id = window.location.hash.slice(1);
+      if (id) {
+        const element = document.getElementById(id);
+        if (element) element.scrollIntoView();
+      }
+    });
+  }
   render() {
     const { children } = this.props;
     return (
