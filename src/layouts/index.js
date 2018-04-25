@@ -46,7 +46,7 @@ class TemplateWrapper extends Component<Props> {
         <div className="layout-page-sponsors">
           <section className="col-4">
             <a href="https://www.mozilla.org" className="sponsor mozilla"> </a>
-            <a href="https://www.sparebank1.no" className="sponsor sparebank1"> </a>
+            <a href="http://jobbsb1.no/" className="sponsor sparebank1"> </a>
             <a href="https://www.acando.no" className="sponsor acando"> </a>
             <a href="https://www.webstep.no" className="sponsor webstep"> </a>
 
