@@ -45,14 +45,15 @@ class TemplateWrapper extends Component<Props> {
         </div>
         <div className="layout-page-sponsors">
           <section className="col-4">
-            <a href="https://www.mozilla.org" className="sponsor mozilla"> </a>
-            <a href="https://www.sparebank1.no" className="sponsor sparebank1"> </a>
-            <a href="https://www.acando.no" className="sponsor acando"> </a>
-            <a href="https://www.webstep.no" className="sponsor webstep"> </a>
-
-            <a href="https://finn.no" className="finn sponsor"> </a>
-            <a href="https://www.microsoft.com" className="microsoft sponsor"> </a>
-            <a href="https://vivaldi.com" className="vivaldi sponsor"> </a>
+            <a href="https://www.mozilla.org?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="sponsor mozilla"> </a>
+            <a href="http://jobbsb1.no/?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="sponsor sparebank1"> </a>
+            <a href="https://www.acando.no/ledigestillinger/er-du-en-som-simpelthen-elsker-teknologi/?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="sponsor acando"> </a>
+            <a href="https://www.webstep.no?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="sponsor webstep"> </a>
+            <a href="https://www.systek.no?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="sponsor systek"> </a>
+            <a href="https://www.knowit.no/karriere/javascript-frontends-ftw/?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="sponsor knowit"> </a>
+            <a href="https://finn.no?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="finn sponsor"> </a>
+            <a href="https://www.microsoft.com?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="microsoft sponsor"> </a>
+            <a href="https://vivaldi.com?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="vivaldi sponsor"> </a>
             <div className="sponsor"> </div>
           </section>
         </div>
