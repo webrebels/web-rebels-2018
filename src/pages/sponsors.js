@@ -76,10 +76,6 @@ const SponsorPage = () => (
               Chill Out Sponsor - Sponsor bean bags. We will add signs and brand
               the chill out zone with your company logo and brand.
             </li>
-            <li>
-              Water bottle sponsor - we provide branded bottles of water to
-              everyone
-            </li>
           </ul>
           <p>
             Questions or want to discuss other options? Please don’t hesitate to

@@ -33,7 +33,7 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <a href="https://ti.to/webrebels/2018">Tickets</a>
+          <a href="/tickets">Tickets</a>
         </li>
       </ul>
     </header>
