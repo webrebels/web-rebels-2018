@@ -13,13 +13,12 @@ const IndexPage = () => (
     <div className="index">
 
       <section className="col-2">
-        <Panel title={<h1>4-5th of JUNE 2018</h1>}>
-          <p>Web Rebels is a one track JavaScript conference running on 4-5th of June 2018 in beautiful Oslo, Norway.</p>
+        <Panel title={<h1>JUNE 4th & 5th 2018</h1>}>
+          <p>Web Rebels is a one track JavaScript conference happening June 4th & 5th 2018 in beautiful Oslo, Norway.</p>
         </Panel>
 
         <Panel title={<h1>TICKETS</h1>}>
-          <p>The first batch of tickets to this years Web Rebels are already sold out.
-	The next batch is planned to go on sale Friday April 27th at 17:00 CEST.</p>
+          <p>The tickets for this years conference will cost 4500 NOK. We are having three ticket drops. The first two batch of tickets to this years Web Rebels are already sold out. The next batch is planned to go on sale Monday May 7th at 17:00 CEST.</p>
         </Panel>
 
       </section>

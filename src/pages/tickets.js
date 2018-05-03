@@ -12,8 +12,9 @@ const TicketsPage = () => (
             two ticket drops.
           </p>
           <ul>
-            <li>Tuesday April 24th at 14:00 CEST (sold out)</li>
-            <li>Friday April 27th at 17:00 CEST</li>
+            <li><s>Tuesday April 24th at 14:00 CEST</s> (sold out)</li>
+            <li><s>Friday April 27th at 17:00 CEST</s> (sold out)</li>
+            <li>Monday May 7th at 17:00 CEST (last batch)</li>
           </ul>
           <p>
             🎟 We are selling our tickets over at Tito.{" "}
