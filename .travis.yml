@@ -1,6 +1,6 @@
 language: node_js
 node_js: 8
-# before_install: 'npm i -g firebase-tools'
+before_install: 'npm i -g firebase-tools'
 script: npm run build
 deploy:
   provider: firebase
