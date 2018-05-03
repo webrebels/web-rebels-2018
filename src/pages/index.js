@@ -18,7 +18,8 @@ const IndexPage = () => (
         </Panel>
 
         <Panel title={<h1>TICKETS</h1>}>
-          <p>Tickets to this years Web Rebels go on sale 24th of April at 14:00 CEST.</p>
+          <p>The first batch of tickets to this years Web Rebels are already sold out.
+	The next batch is planned to go on sale Friday April 27th at 17:00 CEST.</p>
         </Panel>
 
       </section>

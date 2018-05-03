@@ -12,7 +12,7 @@ const TicketsPage = () => (
             two ticket drops.
           </p>
           <ul>
-            <li>Tuesday April 24th at 14:00 CEST</li>
+            <li>Tuesday April 24th at 14:00 CEST (sold out)</li>
             <li>Friday April 27th at 17:00 CEST</li>
           </ul>
           <p>
