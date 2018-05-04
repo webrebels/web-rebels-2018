@@ -33,7 +33,9 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <a href="/tickets">Tickets</a>
+          <Link activeClassName="active" to="/tickets">
+            Tickets
+          </Link>
         </li>
       </ul>
     </header>

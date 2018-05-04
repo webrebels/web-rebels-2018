@@ -18,7 +18,7 @@ const IndexPage = () => (
         </Panel>
 
         <Panel title={<h1>TICKETS</h1>}>
-          <p>The tickets for this years conference will cost 4500 NOK. We are having three ticket drops. The first two batch of tickets to this years Web Rebels are already sold out. The next batch is planned to go on sale Monday May 7th at 17:00 CEST.</p>
+          <p>We are having three ticket drops. The first two batch of tickets to this years Web Rebels are already sold out. The next batch is planned to go on sale Monday May 7th at 17:00 CEST. <Link to="/tickets">Tickets</Link></p>
         </Panel>
 
       </section>
