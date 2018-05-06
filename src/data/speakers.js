@@ -10,10 +10,26 @@ import madlainaKalunder from '../graphics/speaker_madlaina_kalunder.jpg';
 import monikaKedrova from '../graphics/speaker_monika_kedrova.jpg';
 import sigurdSchneider from '../graphics/speaker_sigurd_schneider.jpg';
 import p01 from '../graphics/speaker_p01.jpg';
+import stefanJudis from '../graphics/speaker_stefan_judis.jpg';
 
 
 
 export default [
+  {
+    name: 'Stefan Judis',
+    bio: [
+      'Stefan started programming 7 years ago and quickly fell in love with web performance, new technologies, and accessibility.',
+      'He worked for several startups in Berlin and recently joined Contentful to tell the world how an API-first CMS can make you a bit happier.',
+      'He is also a curator of the web performance online resource Perf Tooling, organizer of the Web Performance Meetup Berlin, contributes to a variety of open source projects and enjoys sharing nerdy discoveries.'
+    ],
+    title: 'What the v...DOM?',
+    abstract: [
+      'A deep dive into the vDOM and its core mechanisms. How does the different vDOM implementations differ and are they really that different? And what about lit-html or hyperHTML? How does they differ or do they really?',
+    ],
+    photoUrl: stefanJudis
+  },
+
+
   {
     name: 'p01',
     bio: [
