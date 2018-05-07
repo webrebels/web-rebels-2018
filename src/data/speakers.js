@@ -86,9 +86,9 @@ export default [
       'She graduated at the Zurich University of Arts with a bachelor degree in Design, specialization Game Design, combining the passion for design and storytelling with the newest technologies.',
       'Madlaina believes in bringing people of different backgrounds together to solve problems in creative ways.'
     ],
-    title: '',
+    title: 'Building a ray tracer in Javascript',
     abstract: [
-
+      'In this talk we learn about the basics of real time 3D graphics and what we need in order to produce realistic looking 3D graphics in the browser by building a very simple ray tracing render engine. Seeing how a seemingly complex concept such as ray tracing can be broken down to simpler concepts will inspire web developers to get creative and enhance their web products with 3D and webVR. We will look at practical techniques and performance tips for browser-based 3D and overcome the obstacle on how to get started.'
     ],
     photoUrl: madlainaKalunder
   },
