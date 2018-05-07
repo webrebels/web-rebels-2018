@@ -40,7 +40,14 @@ const IndexPage = () => (
           </p>
           <SignupForm />
         </Panel>
+
+        <Panel title={<h1>Diversity Scholarship</h1>}>
+          <p>
+            <span>If you believe you qualify, apply via <a href="https://docs.google.com/forms/d/e/1FAIpQLSeT27UJpI1_pAsvYo3l7cyFY9jp9BXIeZKw5KaY6_RDKO3wKA/viewform">this form</a>. Everyone else, please spread the word, and nudge a person you know to apply.</span>
+          </p>
+        </Panel>
       </section>
+
 
     </div>
   </div>
