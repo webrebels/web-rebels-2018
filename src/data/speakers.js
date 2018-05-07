@@ -11,10 +11,22 @@ import monikaKedrova from '../graphics/speaker_monika_kedrova.jpg';
 import sigurdSchneider from '../graphics/speaker_sigurd_schneider.jpg';
 import p01 from '../graphics/speaker_p01.jpg';
 import stefanJudis from '../graphics/speaker_stefan_judis.jpg';
-
+import ivanJovanovic from '../graphics/speaker_ivan_jovanovic.jpg';
 
 
 export default [
+  {
+    name: 'Ivan Jovanovic',
+    bio: [
+      'Ivan is the senior software engineer, team lead, speaker, and mentor. His focus is on building scalable JS applications and experimenting with new languages and frameworks. He is into functional and reactive programming. Leading teams and mentoring junior developers is his everyday duty. He loves to share knowledge and to write on his tech blog.'
+    ],
+    title: 'Thinking Reactive in JavaScript',
+    abstract: [
+      'What is reactive programming? A lot of people have this question. Thinking in a reactive way is not that hard but it takes some time to understand all things and to change the way you look at development. In this talk we should learn everything about reactive programming and how can it help us to create better JavaScript apps.',
+    ],
+    photoUrl: ivanJovanovic
+  },
+
   {
     name: 'Stefan Judis',
     bio: [
@@ -28,7 +40,6 @@ export default [
     ],
     photoUrl: stefanJudis
   },
-
 
   {
     name: 'p01',
