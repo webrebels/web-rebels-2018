@@ -13,9 +13,22 @@ import p01 from '../graphics/speaker_p01.jpg';
 import stefanJudis from '../graphics/speaker_stefan_judis.jpg';
 import ivanJovanovic from '../graphics/speaker_ivan_jovanovic.jpg';
 import emilBay from '../graphics/speaker_emil_bay.jpg';
+import patriciaAas from '../graphics/speaker_patricia_aas.jpg';
 
 
 export default [
+  {
+    name: 'Patricia Aas',
+    bio: [
+      'Patricia Aas is a C++ programmer working on the Vivaldi Browser. She has previously worked at Opera Software on their Desktop Browser and at Cisco on their Telepresence Hardware Endpoints, primarily on Linux. Patricia is a curious person, always trying to find out how things work. She hopes that we will find a way to make the world a better place by creating things that can be used for good.'
+    ],
+    title: 'Reading other peoples code',
+    abstract: [
+      'Someone else\'s code. Even worse, thousands of lines, maybe hundreds of files of other peoples code. Is there a way to methodically read and understand other peoples work, build their mental models? In this talk I will go through techniques I have developed throughout 18 years of programming. Hopefully you will walk away with a plan on how to approach a new code base. But even more I hope you walk away with a feeling of curiosity, wanting to get to know your fellow programmers through their code.'
+    ],
+    photoUrl: patriciaAas
+  },
+
   {
     name: 'Emil Bay',
     bio: [
