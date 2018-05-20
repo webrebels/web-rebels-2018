@@ -88,10 +88,10 @@ export default [
     bio: [
       'V8 core team developer with a background in programming languages and compiler verification.'
     ],
-    title: 'Supporting modern JavaScript idioms for array builtins in V8',
+    title: 'Inside V8: The choreography of Ignition and TurboFan',
     abstract: [
-      'From a high-level we will look at how V8 ensures performance for array builtins behind the scenes. We will see that V8 has to make certain assumptions to be able to generate optimized code. I’ll explain how V8 decides which assumptions to make, what happens if an assumption turns out to be wrong, and how V8 learns from making wrong assumptions.',
-      'This knowledge leads to useful insights for JavaScript developers wishing to improve their code’s run-time performance.'
+      'This talk is about V8, Google’s high-performance JavaScript engine that powers both Chrome and Node. We\'ll dive into the two optimization tiers of V8, Ignition and TurboFan, and how they enable peak performance of modern, idiomatic JavaScript.',
+      'The talk provides high-level insight into V8 and explains the basics of deoptimization and why it\'s important. We\'ll conclude with some actionable performance advice on JavaScript.'
     ],
     photoUrl: sigurdSchneider
   },
