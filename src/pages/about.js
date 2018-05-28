@@ -9,7 +9,6 @@ import mathallenUrl from "../graphics/mathallen-small.jpg";
 const AboutPage = () => (
   <div className="page">
     <div className="about">
-
       <section className="col-2">
         <Panel title={<h2>Location</h2>} class="box benefits">
           <p>
@@ -39,6 +38,14 @@ const AboutPage = () => (
             will be provided from these establishments.
           </p>
           <img src={mathallenUrl} />
+
+          <h5>Party on Monday</h5>
+          <p>
+            The party will be held downstream from the venue about 3 minutes
+            walk. The party venue is Ingensteds (<a href="https://goo.gl/maps/LrDxBfUVX912 ">
+              google maps location
+            </a>).
+          </p>
 
           <h5>Accessibility</h5>
           <p>
@@ -212,7 +219,6 @@ const AboutPage = () => (
           </p>
         </Panel>
       </section>
-
     </div>
   </div>
 );
