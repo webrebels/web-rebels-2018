@@ -48,7 +48,7 @@ const Event = ({ children, when, kind }) => (
 function EventList({ events }) {
   return events.map((event, index) => (
     <Event when={event.when} kind={event.kind} key={index}>
-      {event.title}
+      <h4 className="event-title">{event.title}</h4>
       {event.description}
     </Event>
   ));

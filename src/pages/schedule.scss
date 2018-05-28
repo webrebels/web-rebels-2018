@@ -43,6 +43,13 @@
       margin: 10px;
     }
 
+    .event-title {
+      margin: 0 0 2px 0;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #18ffd4;
+    }
+
     &.talk {
       .when {
         background-color: #008d99;
