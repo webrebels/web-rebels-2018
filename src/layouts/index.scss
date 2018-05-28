@@ -90,7 +90,6 @@ body {
       @include not-desktop {
         grid-gap: 4%;
         grid-template-columns: 48% 48%;
-
       }
     }
     .sponsor {
@@ -133,6 +132,4 @@ body {
       background-image: url(../graphics/sponsor_contentful.png);
     }
   }
-
-
 }

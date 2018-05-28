@@ -53,6 +53,7 @@
     padding: 10px;
   }
   .contents-wrapper {
+    background-color: rgba(34, 67, 124, 0.6);
     z-index: 0;
     border: 1px solid #fff;
     border-right: none;
@@ -71,26 +72,15 @@
     }
 
     .bottom-border {
-      width: calc(100% - 10px);
+      width: 100%;
       border-bottom: 1px solid #fff;
-      &::after {
-        content: "";
-        font-size: 0;
-        border-right: 1px solid #fff;
-        position: absolute;
-        bottom: -2px;
-        right: 5px;
-        width: 0;
-        height: 14px;
-        transform: rotateZ(42deg);
-      }
     }
 
     .right-border {
       position: absolute;
       right: 0;
       top: 0;
-      height: calc(100% - 10px);
+      height: 100%;
       border-right: 1px solid #fff;
     }
   }
