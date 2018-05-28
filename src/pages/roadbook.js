@@ -247,7 +247,9 @@ const RoadbookPage = () => (
         <Panel title={<h2>Filming and streaming</h2>}>
           <p>
             Your talk will be professionally filmed and published on{" "}
-            <a href="http://vimeo.com/webrebels">our video channel at Vimeo</a>{" "}
+            <a href="https://www.youtube.com/channel/UCM9cTs_C0PmTlHXTNrqTpnw">
+              our video channel at Youtube
+            </a>{" "}
             as fast as possible after the conference. All videos published will
             be published under a{" "}
             <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -269,15 +271,6 @@ const RoadbookPage = () => (
           <p>
             We feel deeply honored if you mention us in social media. If you do,
             our official hashtag is: <strong>#webrebels</strong>
-          </p>
-        </Panel>
-      </section>
-      <section className="col-2">
-        <Panel title={<h2>Side events</h2>}>
-          <p>
-            Web Rebels are responsible for arranging a meet-up on the 31st of
-            May and a workshop on the 3rd of June. As a speaker you have access
-            to all events.
           </p>
         </Panel>
       </section>
