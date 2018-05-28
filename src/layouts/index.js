@@ -55,6 +55,7 @@ class TemplateWrapper extends Component<Props> {
             <a href="https://www.microsoft.com?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="microsoft sponsor"> </a>
             <a href="https://vivaldi.com?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="vivaldi sponsor"> </a>
             <a href="https://www.contentful.com?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="contentful sponsor"> </a>
+            <a href="https://www.vibbio.com/?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="vibbio sponsor"> </a>
           </section>
         </div>
       </div>
