@@ -21,8 +21,6 @@ const RoadbookPage = () => (
             after your stay at Web Rebels 2018. Please bookmark this page.
           </p>
         </Panel>
-      </section>
-      <section className="col-2">
         <Panel title={<h2>Contact_information</h2>}>
           <p>
             <a href="#trygve">Trygve Lie</a> is your speaker contact during the
@@ -35,6 +33,8 @@ const RoadbookPage = () => (
             <a href="mailto:kontor@webrebels.org">kontor@webrebels.org</a>.
           </p>
         </Panel>
+      </section>
+      <section className="col-2">
         <Panel title={<h2>Organizer_info</h2>}>
           <p>The Web Rebels organizers are:</p>
           <a name="trygve" />
@@ -155,8 +155,8 @@ const RoadbookPage = () => (
       <section className="col-2">
         <Panel title={<h2>Speaker dinner</h2>}>
           <p>
-            At 18:00 on the 31st of May there will be a speaker dinner.
-            Organizers will be in the loby of the hotel at 17:45 until 18:00 so
+            At 19:00 on the 03st of June there will be a speaker dinner.
+            Organizers will be in the loby of the hotel at 18:45 until 19:00 so
             you can join us there and we walk to the restaurant in a group.
           </p>
           <p>
@@ -231,7 +231,7 @@ const RoadbookPage = () => (
             powers of knowledge, you and the MC will have a QA session about
             your talk. The QA session will be held in a seated area on stage and
             will last between 5 and 10 minutes. In other words there will not be
-            any direct questions from the audience. The MC of 2016 is Max Ogden.
+            any direct questions from the audience. The MC of 2018 is Jessica Lord.
           </p>
           <p>We also encourage you to put your talk online after your talk.</p>
           <p>
