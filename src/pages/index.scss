@@ -24,4 +24,12 @@ $desktop-width: 1024px;
       grid-template-columns: 242px 242px 242px 242px;
     }
   }
+
+  .livestream-wrapper {
+    max-width: 500px;
+  }
+  .livestream {
+    margin: 10px 0 0 0;
+    width: 100%;
+  }
 }

@@ -11,6 +11,19 @@ import "./index.scss";
 const IndexPage = () => (
   <div className="page">
     <div className="index">
+      <section className="livestream-wrapper">
+        <Panel title={<h1>Livestream</h1>}>
+          Can't make it to the conference? Join us via the livestream and on{" "}
+          <a href="https://twitter.com/search?q=%23webrebels">twitter</a>.
+          <iframe
+            class="livestream"
+            height="315"
+            src="https://www.youtube.com/embed/acIOV8wtkOo"
+            frameborder="0"
+            allowfullscreen
+          />
+        </Panel>
+      </section>
 
       <section className="col-2">
         <Panel title={<h1>JUNE 4th and 5th 2018</h1>}>
