@@ -5,6 +5,7 @@ import "./about.scss";
 
 import venueUrl from "../graphics/venue.jpg";
 import mathallenUrl from "../graphics/mathallen-small.jpg";
+import nedreFossUrl from "../graphics/nedre_foss.jpg";
 
 const AboutPage = () => (
   <div className="page">
@@ -23,28 +24,11 @@ const AboutPage = () => (
           <img src={venueUrl} title="Dansens Hus (House of Dance)" />
         </Panel>
 
-        <Panel title={<h1>Venue</h1>}>
+        <Panel title={<h1>Main_Venue</h1>}>
           <p>
             Welcome to “Dansens hus” which is the National Stage for Dance.
             Located right next door to Mathallen and with it's larger capacity
             it is an ideal location for our conference for our 5th edition.
-          </p>
-          <h5>Lunch at Mathallen</h5>
-          <p>
-            Right next door from Dansens hus is Mathallen which is Oslo’s first
-            gourmet food market and located about 20 meters from the venue.
-            There is a wide selection of gourmet food stores, restaurants,
-            excellent coffee and beer shops. All food served at the conference
-            will be provided from these establishments.
-          </p>
-          <img src={mathallenUrl} />
-
-          <h5>Party on Monday</h5>
-          <p>
-            The party will be held downstream from the venue about 3 minutes
-            walk. The party venue is Ingensteds (<a href="https://goo.gl/maps/LrDxBfUVX912 ">
-              google maps location
-            </a>).
           </p>
 
           <h5>Accessibility</h5>
@@ -56,6 +40,46 @@ const AboutPage = () => (
             <a href="mailto:boyhowdy[ replace this bracket with a @]webrebels.org">
               shoot us an email
             </a>.
+          </p>
+        </Panel>
+
+        <Panel
+          title={<h1>Lunch_at_Nedre_Foss_Gård (Monday)</h1>}
+          id="nedre_foss_info"
+        >
+          <p>
+            Across the river from the venue is where the lunch will be on
+            Monday. To get there go around (or through) Mathallen and then
+            across the bridge to the white building on the other side.
+          </p>
+          <p>
+            The name of the venue is "Nedre Foss Gård" (<a href="https://goo.gl/maps/rMeEVjTABJn">
+              google maps location
+            </a>)
+          </p>
+          <img src={nedreFossUrl} />
+        </Panel>
+
+        <Panel
+          title={<h1>Lunch_at_Mathallen (Tuesday)</h1>}
+          id="mathallen_info"
+        >
+          <p>
+            Right next door from Dansens hus is Mathallen which is Oslo’s first
+            gourmet food market and located about 20 meters from the venue.
+            There is a wide selection of gourmet food stores, restaurants,
+            excellent coffee and beer shops. All food served at the conference
+            will be provided from these establishments.
+          </p>
+          <img src={mathallenUrl} />
+        </Panel>
+
+        <Panel title={<h1>Party_on_Monday</h1>} id="party_info">
+          <p>
+            The party will be held downstream from the venue about 3 minutes
+            walk. The party venue is Ingensteds (<a href="https://goo.gl/maps/LrDxBfUVX912 ">
+              google maps location
+            </a>).
           </p>
         </Panel>
 
