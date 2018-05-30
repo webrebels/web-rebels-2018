@@ -15,13 +15,11 @@ export default function Nav() {
             Speakers
           </Link>
         </li>
-{/*
         <li>
           <Link activeClassName="active" to="/schedule">
             Schedule
           </Link>
         </li>
-*/}
         <li>
           <Link activeClassName="active" to="/sponsors">
             Sponsors
