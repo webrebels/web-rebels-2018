@@ -92,7 +92,7 @@ const DAY1 = [
   {
     when: ["17:00"],
     title: "Martin Splitt",
-    description: "TBA",
+    description: "JS in parallel - heavy duty in the browser",
     kind: "talk"
   },
   {
