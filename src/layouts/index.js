@@ -49,13 +49,13 @@ class TemplateWrapper extends Component<Props> {
             <a href="http://jobbsb1.no/?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="sponsor sparebank1"> </a>
             <a href="https://www.acando.no/ledigestillinger/er-du-en-som-simpelthen-elsker-teknologi/?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="sponsor acando"> </a>
             <a href="https://www.webstep.no?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="sponsor webstep"> </a>
-            <a href="https://www.systek.no?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="sponsor systek"> </a>
+            <a href="http://www.systek.no/ledige-stillinger/?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="sponsor systek"> </a>
             <a href="https://www.knowit.no/karriere/javascript-frontends-ftw/?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="sponsor knowit"> </a>
-            <a href="https://finn.no?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="finn sponsor"> </a>
-            <a href="https://www.microsoft.com?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="microsoft sponsor"> </a>
-            <a href="https://vivaldi.com?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="vivaldi sponsor"> </a>
+            <a href="https://www.finn.no/jobbifinn/?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="finn sponsor"> </a>
+            <a href="https://careers.microsoft.com/us/en/search-results?qcountry=Norway?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="microsoft sponsor"> </a>
+            <a href="https://vivaldi.com/jobs/?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="vivaldi sponsor"> </a>
             <a href="https://www.contentful.com?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="contentful sponsor"> </a>
-            <a href="https://www.vibbio.com/?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="vibbio sponsor"> </a>
+            <a href="https://vibbio.teamtailor.com//?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="vibbio sponsor"> </a>
           </section>
         </div>
       </div>
