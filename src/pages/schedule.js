@@ -118,7 +118,7 @@ const DAY2 = [
   {
     when: ["09:00"],
     title: "John Papa",
-    description: "TBA",
+    description: "Readable Code",
     kind: "talk"
   },
   {

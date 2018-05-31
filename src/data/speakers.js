@@ -179,8 +179,10 @@ export default [
       'John Papa is dedicated a father and husband, a Principal Developer Advocate with Microsoft, and alumnus of the Google Developer Expert, Microsoft RD and MVP programs.',
       'His passions are deploying and teaching modern web technologies and enjoying everything Disney with his family. John is a co-host of the popular Adventures in Angular podcast, author of the Angular Style Guide, and many popular Pluralsight courses.'
     ],
-    title: '',
-    abstract: [],
+    title: 'Readable Code',
+    abstract: [
+      'Can you read the code you wrote today, last week, last year? The positive impact authoring readable code can have on your career can be enormous. We spend far more time reading code than writing it. So how can we turn this to our benefit? We’ll explore actionable techniques that will enable you to craft code that lives longer and is easier to maintain. Learn how to make Readable Code by using some of the methods such as separation of concerns, above the fold, the five-second rule, consequential commenting, contextual clarity, and many more that can improve your code right away! Is your code readable?'
+    ],
     photoUrl: johnPapa
   },
 
