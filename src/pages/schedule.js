@@ -42,8 +42,8 @@ const DAY1 = [
   },
   {
     when: ["11:45"],
-    title: "TBA",
-    description: "TBA",
+    title: "Tor Martin Storsletten, Tom Widerøe and Lotte Johansen,",
+    description: "How to make accessible web when the ideal does not match reality?",
     kind: "talk"
   },
   {

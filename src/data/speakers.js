@@ -14,9 +14,22 @@ import stefanJudis from '../graphics/speaker_stefan_judis.jpg';
 import ivanJovanovic from '../graphics/speaker_ivan_jovanovic.jpg';
 import emilBay from '../graphics/speaker_emil_bay.jpg';
 import patriciaAas from '../graphics/speaker_patricia_aas.jpg';
+import finnTeam from '../graphics/speaker_finn_team.jpg';
 
 
 export default [
+  {
+    name: 'Tor Martin Storsletten, Tom Widerøe and Lotte Johansen,',
+    bio: [
+      'Tor Martin, Tom and Lotte are the award winning accessibillity team at FINN.no.'
+    ],
+    title: 'How to make accessible web when the ideal does not match reality?',
+    abstract: [
+      'The accessibility group in FINN has worked for four years to make FINN more accessible. We will demonstrate some examples you can learn from to make your code more accessible even if the reality works against you.'
+    ],
+    photoUrl: finnTeam
+  },
+
   {
     name: 'Patricia Aas',
     bio: [
