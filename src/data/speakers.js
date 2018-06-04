@@ -25,7 +25,10 @@ export default [
     ],
     title: 'How to make accessible web when the ideal does not match reality?',
     abstract: [
-      'The accessibility group in FINN has worked for four years to make FINN more accessible. We will demonstrate some examples you can learn from to make your code more accessible even if the reality works against you.'
+      'How to make the web accessible when our ideals don\'t match reality? The accessibility group in FINN has worked for four years to make FINN more accessible. We will demonstrate some examples you can learn from to make your code more accessible even when real-world constraints work against you.',
+      'Lotte Johansen is a senior developer at FINN.no. Although she is primarily a backend developer, she has been engaged in accessibility since 2014 when she founded the accessibility group at FINN with other developers and designers. She gave a lightning talk at WebRebels in 2015 and has talked at conferences like JavaZone, CSUN and MicroXchg.',
+      'Tom Widerøe is a front-end developer at FINN.no, and was one of the founders of the grassroots accessibility movement, whose mission is to inspire the organization to make our products more accessible. He also blogs about accessibility and has given talks about it at several conferences.',
+      'Tor-Martin Storsletten is a developer and accessibility specialist at FINN.no. He is totally blind and helps developer teams making their solutions accessible.'
     ],
     photoUrl: finnTeam
   },
