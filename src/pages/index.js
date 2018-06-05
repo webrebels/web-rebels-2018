@@ -18,7 +18,7 @@ const IndexPage = () => (
           <iframe
             class="livestream"
             height="315"
-            src="https://www.youtube.com/embed/xP1kbqn3ISo"
+            src="https://www.youtube.com/embed/kNc6N54MY3o"
             frameborder="0"
             allowfullscreen
           />
