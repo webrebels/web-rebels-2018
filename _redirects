@@ -1,0 +1,5 @@
+# Redirect default Netlify subdomain to primary domain
+https://musing-jennings-48aaac.netlify.com/* https://2018.webrebels.org/:splat 301!
+
+# These extra rules are required because HTTPS is not forced
+http://musing-jennings-48aaac.netlify.com/* https://2018.webrebels.org/:splat 301!
