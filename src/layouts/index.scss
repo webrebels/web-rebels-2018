@@ -7,6 +7,44 @@ body {
   margin: 0;
 }
 
+footer {
+    background-color: #00a69c;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tag {
+    margin-bottom: .5em;
+    padding-top: .25em;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.menu {
+    letter-spacing: 2px;
+    list-style-type: none;
+    padding-left: 0;
+    text-transform: uppercase;
+}
+
+.menu-item {
+    display: inline-block;
+}
+
+.menu-item a {
+    display: block;
+    padding: .75em 1em .5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-item a:hover,
+.menu-item a:active {
+    background-color: #3c3c36;
+    transition: all .1s ease-in 0s;
+}
+
 .template-wrapper {
   padding: 0.1px;
   min-height: 100vh;

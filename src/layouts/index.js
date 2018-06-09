@@ -58,6 +58,21 @@ class TemplateWrapper extends Component<Props> {
             <a href="https://vibbio.teamtailor.com//?utm_campaign=wr2018&utm_source=webrebels&utm_content=footer" className="vibbio sponsor"> </a>
           </section>
         </div>
+        <footer>
+            <h2 className="tag">Check out previous years! And remember to find, follow, track, like &amp; love us elsewhere:</h2>
+            <ul class="footer menu notsoloud">
+                <li className="menu-item"><a href="https://2012.webrebels.org/">WR 2012</a></li>
+                <li className="menu-item"><a href="https://2013.webrebels.org/">WR 2013</a></li>
+                <li className="menu-item"><a href="https://2014.webrebels.org/">WR 2014</a></li>
+                <li className="menu-item"><a href="https://2015.webrebels.org/">WR 2015</a></li>
+                <li className="menu-item"><a href="https://2016.webrebels.org/">WR 2016</a></li>
+                <li className="menu-item"><a href="https://2017.webrebels.org/">WR 2017</a></li>
+                <li className="menu-item"><a href="https://twitter.com/web_rebels">Twitter</a></li>
+                <li className="menu-item"><a href="https://www.youtube.com/channel/UCM9cTs_C0PmTlHXTNrqTpnw">Youtube</a></li>
+                <li className="menu-item"><a href="https://webrebels.tumblr.com">Tumblr</a></li>
+                <li className="menu-item"><a href="https://eepurl.com/bB12Ln">Newsletter</a></li>
+            </ul>
+        </footer>
       </div>
     );
   }

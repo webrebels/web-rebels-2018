@@ -199,6 +199,9 @@ const AboutPage = () => (
           </p>
           <ol>
             <li>
+              <a href="http://2017.webrebels.org/">2017 edition</a>
+            </li>
+            <li>
               <a href="http://2016.webrebels.org/">2016 edition</a>
             </li>
             <li>
