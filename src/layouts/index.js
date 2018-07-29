@@ -85,6 +85,7 @@ class TemplateWrapper extends Component<Props> {
                 <li className="menu-item"><a href="https://www.youtube.com/channel/UCM9cTs_C0PmTlHXTNrqTpnw">Youtube</a></li>
                 <li className="menu-item"><a href="https://webrebels.tumblr.com">Tumblr</a></li>
                 <li className="menu-item"><a href="https://eepurl.com/bB12Ln">Newsletter</a></li>
+                <li className="menu-item"><a href="https://github.com/webrebels/rebeladmin/blob/master/vedtekter.md">997 686 659 MVA</a></li>
             </ul>
         </footer>
       </div>
