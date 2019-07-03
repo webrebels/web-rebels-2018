@@ -31,6 +31,8 @@ class TemplateWrapper extends Component<Props> {
                   <li className="menu-item"><a href="https://2015.webrebels.org/">WR 2015</a></li>
                   <li className="menu-item"><a href="https://2016.webrebels.org/">WR 2016</a></li>
                   <li className="menu-item"><a href="https://2017.webrebels.org/">WR 2017</a></li>
+      <li className="menu-item"><a href="https://2018.webrebels.org/">WR 2018</a></li>
+      <li className="menu-item"><a href="https://2020.webrebels.org/">WR 2020</a></li>
                   <li className="menu-item"><a href="https://twitter.com/web_rebels">Twitter</a></li>
                   <li className="menu-item"><a href="https://www.youtube.com/channel/UCM9cTs_C0PmTlHXTNrqTpnw">Youtube</a></li>
                   <li className="menu-item"><a href="https://webrebels.tumblr.com">Tumblr</a></li>
